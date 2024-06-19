@@ -21,7 +21,7 @@ export function Header() {
         : document.querySelector('body').style.overflow = 'visible'
 
     return (
-        <header className='w-screen bg-[#ffffff] fixed z-10 top-0 '>
+        <header className='w-screen bg-[#fffffs] z-10 top-0 '>
             <div>
                 <div>
                     <p>
