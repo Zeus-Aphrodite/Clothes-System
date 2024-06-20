@@ -77,9 +77,6 @@ export function Header() {
                         </p>
                     </div>
                     <ul className=''>
-                        {/* <button className='block md:hidden mr-2 px-[8px]' onClick={toggleSearch}>
-                            <FontAwesomeIcon icon={faSearch} />
-                        </button> */}
                         <li className='mr-2 px-[8px] py-1 rounded hover:bg-gray-600 transition cursor-not-allowed md:mr-4 bg-[#9d751a] w-[210px] mb-1 mt-10'>
                             <FontAwesomeIcon icon={faUser} className='text-xl' />マイページ*ログイン
                         </li>
