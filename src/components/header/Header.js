@@ -24,11 +24,11 @@ export function Header() {
         <header className='w-screen bg-[#fffffs] z-10 top-0 '>
             <div>
                 <div>
-                    <p>
+                    <p className="text-xs">
                         黒留袖 留袖専門レンタルショップ和匠は、 着物職人が選び抜いた、 京友禅や丹後ちりめんなどの高級感あふれる品を取り揃えています
                     </p>
                 </div>
-                <div className='container text-lg flex justify-between items-center text-white  max-w-[1240px] m-auto px-2'>
+                <div className='text-lg flex justify-between items-center text-white m-auto px-8'>
                     {/* <a href='/' >Cloth Shop</a> */}
                     {/* <Search /> */}
                     <div className="">
@@ -44,24 +44,24 @@ export function Header() {
                         <img src={Myphoto} />
                     </div>
                     <div>
-                        <p className="text-black">
+                        <p className="text-[#9b7d5f]">
                             全国往復
                         </p>
-                        <p className="text-black">
+                        <p className="text-[#9b7d5f]">
                             送料無料
                         </p>
-                        <p className="text-black">
+                        <p className="text-[#9b7d5f]">
                             ※一部を除く
                         </p>
                     </div>
                     <div>
-                        <p className="text-black">
+                        <p className="text-[#b15f5e]">
                             安心保險
                         </p>
-                        <p className="text-black">
+                        <p className="text-[#9b7d5f]">
                             汚してしまっても
                         </p>
-                        <p className="text-black">
+                        <p className="text-[#9b7d5f]">
                             安心の制度です
                         </p>
                     </div>
@@ -69,7 +69,7 @@ export function Header() {
                         <p className="text-black">
                             最高級オリジナル黒留袖をお値打ち価格で
                         </p>
-                        <p className="text-black">
+                        <p className="text-[#785c15] text-5xl">
                             C075-756-8774
                         </p>
                         <p className="text-black">
@@ -90,19 +90,19 @@ export function Header() {
                     </ul>
                 </div>
                 <div className="flex justify-center">
-                    <button className="bg-[#252526] text-[22px] text-white px-10 py-2">
+                    <button className="bg-[#252526] text-[22px] text-white px-16 py-2">
                         初めての方へ
                     </button>
-                    <button className="bg-[#252526] text-[22px] text-white px-10 py-2">
+                    <button className="bg-[#252526] text-[22px] text-white px-16 py-2">
                         留袖一覧
                     </button>
-                    <button className="bg-[#252526] text-[22px] text-white px-10 py-2">
+                    <button className="bg-[#252526] text-[22px] text-white px-16 py-2">
                         よくあるご質問
                     </button>
-                    <button className="bg-[#252526] text-[22px] text-white px-10 py-2">
+                    <button className="bg-[#252526] text-[22px] text-white px-16 py-2">
                         お客様の声
                     </button>
-                    <button className="bg-[#252526] text-[22px] text-white px-10 py-2">
+                    <button className="bg-[#252526] text-[22px] text-white px-16 py-2">
                         買い物カゴを見る
                     </button>
                 </div>
