@@ -10,12 +10,12 @@ export function Colors() {
         <>
             <>
                 <span className='text-lg'>Color</span>
-                <div className='flex items-center my-4'>
+                <div className='flex items-center my-5'>
                     {
                         colors.map((item, index) => (
                             <button
                                 key={index}
-                                className={`${item.class} ${selectedColor === index && item.selectedClass + ' ring-2'}  ring-offset-1 w-[40px] h-[40px] border mr-2 rounded-full`}
+                                className={`${item.class} ${selectedColor === index && item.selectedClass + ' ring-2'}  ring-offset-1 w-[40px] h-[40px] border mr-3 rounded-full`}
                                 onClick={() => setSelectedColor(index)}
                             ></button>
                         ))
