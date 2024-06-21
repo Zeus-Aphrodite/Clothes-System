@@ -24,11 +24,11 @@ export function Loader() {
                 <span style={{ "--i": 18 }}></span>
                 <span style={{ "--i": 19 }}></span>
                 <span style={{ "--i": 20 }}></span>
-                <span style={{ "--i": 21 }}></span>
+                {/* <span style={{ "--i": 21 }}></span>
                 <span style={{ "--i": 22 }}></span>
                 <span style={{ "--i": 23 }}></span>
                 <span style={{ "--i": 24 }}></span>
-                <span style={{ "--i": 25 }}></span>
+                <span style={{ "--i": 25 }}></span> */}
             </div>
         </div>
     )
