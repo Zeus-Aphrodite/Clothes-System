@@ -97,7 +97,7 @@ export function ProductDetailItem({product, refetch, status}) {
                     </div>
                 </div>
                 <div className='mt-[100px]'>
-                    <p className='text-xl font-medium w-fit border-b-2 border-b-gray-500 mx-auto lg:mx-0'>You may also be interested</p>
+                    <p className='text-xl font-medium w-fit border-b-3 border-b-gray-500 mx-auto lg:mx-0'>You may also be interested</p>
                     <div className={`flex justify-start mt-8 overflow-x-auto lg:overflow-x-hidden ${filterProductFooter?.length > 3 ? 'lg:justify-center' : 'sm:justify-center'}`}>
                         {error && <div>{error.error}</div>}
                         {isLoading && <Loader />}
