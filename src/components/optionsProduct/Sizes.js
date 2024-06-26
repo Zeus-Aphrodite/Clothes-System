@@ -6,10 +6,10 @@ export function Sizes() {
     const {sizes} = optionsProducts
 
     return (
-        <div className='pt-6 w-fit lg:w-[330px]'>
+        <div className='pt-7 w-fit lg:w-[330px]'>
             <div className='flex justify-between'>
                 <span className='text-base'>Size</span>
-                <button className='text-indigo-600 font-medium hover:text-indigo-500 transition'>Size guide</button>
+                <button className='text-indigo-600 font-medium hover:text-indigo-500 transition'>Size guides</button>
             </div>
             <div className='flex justify-start flex-wrap lg:justify-between'>
                 {
