@@ -55,7 +55,7 @@ export function ProductDetailItem({product, refetch, status}) {
             <div className='px-2 pb-6'>
                 <p className='capitalize text-gray-500 mb-6 text-sm font-semibold sm:text-base'>
                     <Link to='/' className='transition hover:border-b-2 border-b-gray-500'>
-                        Home
+                        Homepagge
                     </Link>
                     <span className='px-2'>\</span>
                     {product.category}
