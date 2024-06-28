@@ -35,7 +35,7 @@ export function Price() {
             <input
                 type='submit'
                 value='ok'
-                className='border px-2 ml-4 uppercase rounded h-[30px] bg-black text-white hover:bg-gray-600 transition cursor-pointer'
+                className='border px-2 ml-4 uppercase rounded h-[30px] bg-black text-white hover:bg-gray-500 transition cursor-pointer'
             />
         </form>
     )
