@@ -14,7 +14,7 @@ export function ProductFilters() {
         <>
             <button className='block border px-4 border-black font-medium py-1 mb-2 xl:hidden' onClick={toggleFiltersBtn}>Filters</button>
             <div className={`${toggleFilters ? 'lg:flex lg:justify-between lg:w-full' : 'hidden'}  xl:block`}>
-                <div className='mt-[20px] border-b pb-[15px] w-full'>
+                <div className='mt-[20px] border-b pb-[17px] w-full'>
                     <p className='pb-[20px] text-lg font-medium'>Category</p>
                     <Category />
                 </div>
